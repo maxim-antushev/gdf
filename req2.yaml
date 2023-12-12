@@ -22,7 +22,7 @@
 
    - name: Check result
      ios_command:
-       commands: sh ip access-lists REQ2
+       commands: sh ip access-lists extended REQ2
      register: result
      tags: show
 
